@@ -27,7 +27,39 @@
         </div>
     </header>
 
+    <main>
+        <form>
+            <label for="nomeSobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomeSobrenome" class="input-padrao" placeholder="Digite o seu nome completo" placeholder>
 
+            <label for="email">Email</label>
+            <input type="text" id="email" class="input-padrao" placeholder="Digite o seu email" placeholder>
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" class="input-padrao" placeholder="Digite o seu telefone" placeholder>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrapadrao" placeholder="Digite a sua mensagem" placeholder></textarea>
+
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+                        id="radio-telefone">Telefone</label>
+
+
+                <label for="radio-WhatsApp"><input type="radio" name="contato" value="whatsapp"
+                        id="whatsapp">WhatsApp</label>
+
+            </div>
+
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas nvidades por email?</label>
+
+            <input type="submit" value="Enviar formulário">
+        </form>
+    </main>
 
     <footer>
         <img src="img/logo-branco.png">
